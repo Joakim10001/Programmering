@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/joakimb/Skrivbord/Frågesport2/Frågesport2.csproj",
+      "projectUniqueName": "/home/joakimb/Dokument/Programmering/Frågesport2/Frågesport2.csproj",
       "projectName": "Frågesport2",
-      "projectPath": "/home/joakimb/Skrivbord/Frågesport2/Frågesport2.csproj",
+      "projectPath": "/home/joakimb/Dokument/Programmering/Frågesport2/Frågesport2.csproj",
       "packagesPath": "/home/joakimb/.nuget/packages/",
-      "outputPath": "/home/joakimb/Skrivbord/Frågesport2/obj/",
+      "outputPath": "/home/joakimb/Dokument/Programmering/Frågesport2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/joakimb/.nuget/NuGet/NuGet.Config"
