@@ -11,19 +11,32 @@ namespace Frågesport
      class Program
     {
         static void Main(string[] args)
-        {   
-             QuestionCard card;
-                card = new QuestionCard("Vad heter Norges huvudstad?", "Oslo");
+        {                  List<QuestionCard>cards;
+           cards = new List<QuestionCard>();
+           QuestionCard card;
+           card = new QuestionCard("vad heter norges huvudstad?", "oslo");
+           cards.Add(card);
+           card = new QuestionCard("vad heter danmarks huvudstad?", "köpenhamn");
+           cards.Add(card);
+           card = new QuestionCard("vad heter finlands huvudstad?", "helsingfors");
+           cards.Add(card);
 
-                 Console.WriteLine(card.GetQuestion()); // Vad heter Norges huvudstad?
+           foreach( QuestionCard mycard in cards)
+           {
+             string answer;
+              Console.WriteLine(mycard.GetQuestion());
+             answer = Console.ReadLine();
+             if (mycard.IsCorrect(answer))
+             {
+                 Console.WriteLine("det var rätt");
+             }
+             else
+             {
+                 Console.WriteLine("det var fel");
+             }
 
-                if (card.IsCorrect("gissning"))
-                {
-
-
-                }
-        
-
+           }
+          
             
 
         }
