@@ -68,7 +68,7 @@ namespace Frågesport
         }
 
          
-        static void testmetod1()
+        /*static void testmetod1()
         {
              List<QuestionCard>minlista;
             minlista = new List<QuestionCard>();
@@ -102,7 +102,7 @@ namespace Frågesport
                     Console.WriteLine("Fel");
                 }
             }   
-        }
+        }*/
 
 
      }  
