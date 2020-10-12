@@ -11,31 +11,7 @@ namespace Frågesport
      class Program
     {
         static void Main(string[] args)
-        {                  List<QuestionCard>cards;
-           cards = new List<QuestionCard>();
-           QuestionCard card;
-           card = new QuestionCard("vad heter norges huvudstad?", "oslo");
-           cards.Add(card);
-           card = new QuestionCard("vad heter danmarks huvudstad?", "köpenhamn");
-           cards.Add(card);
-           card = new QuestionCard("vad heter finlands huvudstad?", "helsingfors");
-           cards.Add(card);
-
-           foreach( QuestionCard mycard in cards)
-           {
-             string answer;
-              Console.WriteLine(mycard.GetQuestion());
-             answer = Console.ReadLine();
-             if (mycard.IsCorrect(answer))
-             {
-                 Console.WriteLine("det var rätt");
-             }
-             else
-             {
-                 Console.WriteLine("det var fel");
-             }
-
-           }
+        {   
           
             
 
@@ -118,7 +94,36 @@ namespace Frågesport
         }*/
 
 
-     }  
+        static void testmetod2()
+         {
+                             List<QuestionCard>cards;
+           cards = new List<QuestionCard>();
+           QuestionCard card;
+           card = new QuestionCard("vad heter norges huvudstad?", "oslo");
+           cards.Add(card);
+           card = new QuestionCard("vad heter danmarks huvudstad?", "köpenhamn");
+           cards.Add(card);
+           card = new QuestionCard("vad heter finlands huvudstad?", "helsingfors");
+           cards.Add(card);
+
+           foreach( QuestionCard mycard in cards)
+           {
+             string answer;
+              Console.WriteLine(mycard.GetQuestion());
+             answer = Console.ReadLine();
+             if (mycard.IsCorrect(answer))
+             {
+                 Console.WriteLine("det var rätt");
+             }
+             else
+             {
+                 Console.WriteLine("det var fel");
+             }
+
+           }
+      
+          }
+    }
 }
 
 
