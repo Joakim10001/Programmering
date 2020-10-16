@@ -6,7 +6,12 @@ namespace arv
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+             Cat minKatt = new Cat(5);
+            minKatt.Act(); 
+
+            Dog minHund = new Dog(5);
+            minHund.Act();    
         }
+
     }
 }
