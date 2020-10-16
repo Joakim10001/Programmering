@@ -29,8 +29,18 @@ namespace arv
             cats.Add(minkatt2);
 
         }
-
-        
+        public void Run()
+        {
+           foreach (Dog minhund in dogs)
+        {
+            minhund.Act();
+        } 
+          foreach (Cat minkatt in cats)
+          {
+              minkatt.Act();
+          }
+        }
+      
        
     }
 }

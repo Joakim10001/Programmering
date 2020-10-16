@@ -15,7 +15,8 @@ namespace arv
 
        public void Act()
        {
-         Console.WriteLine("Mjau");
+         Console.WriteLine("Mjau" + age);
+
        }
     }
 }

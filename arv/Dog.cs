@@ -12,7 +12,7 @@ namespace arv
 
         public void Act()
         {
-            Console.WriteLine("vov");
+            Console.WriteLine("vov" + age);
         }
     }
 }
