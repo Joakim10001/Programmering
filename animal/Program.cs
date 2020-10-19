@@ -6,7 +6,8 @@ namespace animal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Zoo djurpark = new Zoo();
+            djurpark.Run();
         }
     }
 }

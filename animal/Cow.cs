@@ -3,15 +3,15 @@ using System;
 namespace animal
 {
 
-    class Cat : Animal
+    class Cow : Animal
     {
 
     
 
-       public Cat(int age1)
+       public Cow(int age1)
        {
            age = age1;
-           sound = "mjau";
+           sound = "Muu";
        }
 
        
