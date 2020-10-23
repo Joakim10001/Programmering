@@ -11,6 +11,11 @@ namespace arv_sak
           title = title1;
           artist = artist1;
 
+
+      }
+      public override void Act()
+      {
+        Console.WriteLine(title + ", " + artist);
       }
     }
 }

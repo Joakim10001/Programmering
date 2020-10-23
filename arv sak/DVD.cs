@@ -14,5 +14,9 @@ namespace arv_sak
             regissör = regissör1;
 
         }
+        public override void Act()
+      {
+        Console.WriteLine(title + ", " + regissör);
+      }
     }
 }

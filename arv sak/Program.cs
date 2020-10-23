@@ -6,7 +6,8 @@ namespace arv_sak
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Databas databas = new Databas();
+            
         }
     }
 }
