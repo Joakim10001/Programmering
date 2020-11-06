@@ -6,7 +6,9 @@ namespace interface1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           Sphere sfär = new Sphere(5);
+           Console.WriteLine(sfär.ToString() );
+
         }
     }
 }

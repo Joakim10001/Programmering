@@ -6,6 +6,11 @@ namespace interface1
     {
 
         protected double r;
+
+        public Sphere(double radius1)
+        {
+            r = radius1;
+        }
        public double GetArea()
        {
            return 4 * Math.PI * r * r;
@@ -17,8 +22,9 @@ namespace interface1
        }
 
        public override string ToString()
-       {
-           return "Sphere: " +r ;
+       { 
+           return "Sphere: " +Environment.NewLine + "Radius=" +r +Environment.NewLine + "Volume=" +GetVolume() +Environment.NewLine + "Area=" +GetArea() ;
+           
        }
     }
 }
