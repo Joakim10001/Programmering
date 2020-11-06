@@ -14,17 +14,17 @@ namespace interface1
         }
        public double GetArea()
        {
-           return 4 * Math.PI * r * r;
+           return 4 * Math.PI * r * r ;
            
        }
        public double GetVolume()
        {
-           return 4 * Math.PI * r * r * r / 3;
+           return Math.PI * r * r * h;
        }
 
        public override string ToString()
        { 
-           return "Sphere: " +Environment.NewLine + "Radius=" +r +Environment.NewLine + "Volume=" +GetVolume() +Environment.NewLine + "Area=" +GetArea() ;
+           return "Cylinder: " +Environment.NewLine + "Radius=" +r +Environment.NewLine + "Heigt=" +h +Environment.NewLine + "Volume=" +GetVolume() +Environment.NewLine + "Area=" +GetArea() ;
            
        }
     }
