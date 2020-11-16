@@ -12,6 +12,9 @@ namespace interface1
            Cylinder cylle = new Cylinder(4, 5);
            Console.WriteLine(cylle.ToString() );
 
+           Cube kub = new Cube (7, 8);
+           Console.WriteLine(kub.ToString() ); 
+
         }
     }
 }

@@ -6,9 +6,12 @@ namespace interface1
     {
         protected double r;
 
-        public Cube(double radius1)
+        protected double l;
+
+        public Cube(double radius1, double lenght1)
         {
             r = radius1;
+            l = lenght1;
         }
        public double GetArea()
        {
@@ -22,7 +25,7 @@ namespace interface1
 
        public override string ToString()
        { 
-           return "Sphere: " +Environment.NewLine + "Radius=" +r +Environment.NewLine + "Volume=" +GetVolume() +Environment.NewLine + "Area=" +GetArea() ;
+           return "Cube: " +Environment.NewLine + "Radius=" +r +Environment.NewLine + "lenght=" +l +Environment.NewLine + "Volume=" +GetVolume() +Environment.NewLine + "Area=" +GetArea() ;
            
        }
     }
