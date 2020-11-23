@@ -1,9 +1,26 @@
 using System;
 
-namespace anställd
+namespace Anställd1
 {
-    class Fastanställd
+    class Fast : Anställd
     {
+        private double Lön;
+
+        public Fast(string namnet, double Lön):base(namnet)
+        {
+           this.Lön = Lön;
+        }
+        public override double BeräknaLön()
+        {
+            return Lön;
+        }
+        public override String ToString()
+        {
+            return "billy: " + 
+                Environment.NewLine + "fastanställd" +
+                Environment.NewLine + "Lön:" + BeräknaLön() +
+                Environment.NewLine;
+        }
         
     }
-}
+}    

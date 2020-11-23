@@ -1,20 +1,27 @@
 using System;
 
-namespace anställd
+namespace Anställd1
 {
     class Anställd
-    {  
-        protected string n;
+    {
+        private String namn;
 
-        public Anställd(string namn1)
+     
+        
+        public Anställd(String namn)
         {
-            n = namn1;
-        }
-        public double Getlön()
-        {
+            this.namn = namn;
 
         }
-        public string
+        public virtual double BeräknaLön()
+        {
+            return 0;
+
+        }
+        public override String ToString()
+        {
+            return namn;
+        }
         
     }
 }

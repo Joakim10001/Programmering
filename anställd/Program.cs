@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace anställd
+namespace Anställd1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Test anställda = new Test();
+            anställda.Run();
+        
         }
     }
 }
+
